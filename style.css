@@ -1,0 +1,100 @@
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 8px;
+}
+
+button {
+    width: 80px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.god-run {
+    width: 100px;
+    height: 100px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.games-overview {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.games {
+    display: flex;
+}
+
+.game-image {
+    width: 200px;
+    height: 200px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
