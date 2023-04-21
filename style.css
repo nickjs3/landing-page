@@ -1,17 +1,51 @@
 
 body {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
 }
+
+.content {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 80px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+
+    border-radius: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 1em;
+}
+
+
 
 
 .header {
     background-color: #1F2937;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding: 0 calc(30% - 200px);
+    
 }
 
 .logo {
@@ -25,47 +59,54 @@ body {
     gap: 32px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
+
 
 .first-section {
     background-color: #1F2937;
+
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: white;
+    gap: 100px;
+    padding: 25px calc(30% - 200px);
 }
 
 .overview {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    gap: 8px;
-}
-
-button {
-    width: 80px;
-    background-color: #3882F6;
-    color: white;
-    font-weight: 500;
+    max-width: 400px;
+    
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.desription {
+    max-width: 400px;
 }
 
 .god-run {
-    width: 100px;
-    height: 100px;
+    width: 450px;
+    height: 300px;
+    flex-shrink: 0;
 }
 
+
+
 .second-section {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    padding: 25px calc(30% - 100px);
 }
 
 .games-overview {
@@ -75,20 +116,78 @@ button {
 
 .games {
     display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
 }
 
-.game-image {
-    width: 200px;
-    height: 200px;
-}
-
-.third-section {
-    background-color: #E5E7EB;
-
+.game {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
+.game-image {
+    width: 150px;
+    height: 150px;
+}
+
+.game-des {
+    text-align: center;
+}
+
+
+
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 25px calc(30% - 100px);
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 32px;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 24px;
+
+    display: flex;
+    margin-left: auto;
+}
+
+
+
+
+.fourth-section {
+    padding: 25px 100px;
+    background-color: #3882F6;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px calc(30% - 200px);
+    border-radius: 1em;
+}
+
+.call-to-action {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .footer {
     background-color: #1F2937;
@@ -97,4 +196,3 @@ button {
     align-items: center;
     justify-content: center;
 }
-
